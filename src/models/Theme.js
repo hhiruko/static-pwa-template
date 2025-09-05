@@ -46,7 +46,6 @@ export class Theme {
 
     #switchTheme(theme) {
         const element = document.querySelector('body');
-        const path = import.meta.env.VITE_APP_PATH ?? '/';
         switch(theme) {
             case Theme.LIGHT: element.classList.remove('theme-dark'); element.classList.add('theme-light'); break;
             case Theme.DARK: element.classList.remove('theme-light'); element.classList.add('theme-dark'); break;
