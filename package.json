@@ -1,6 +1,6 @@
 {
   "name": "static-pwa-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Static PWA Template",
   "scripts": {
     "test": "echo \"No tests yet.\"",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hhiruko/mathbook.git"
+    "url": "git+https://github.com/hhiruko/static-pwa-template.git"
   },
   "keywords": [
     "pwa",
@@ -23,14 +23,15 @@
   "author": "hhiruko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hhiruko/mathbook/issues"
+    "url": "https://github.com/hhiruko/static-pwa-template/issues"
   },
-  "homepage": "https://github.com/hhiruko/mathbook#readme",
+  "homepage": "https://github.com/hhiruko/static-pwa-template#readme",
   "devDependencies": {
     "glob": "^11.0.3",
     "vite": "^6.3.5"
   },
   "dependencies": {
+    "@hhiruko/water.css": "^3.0.2",
     "favicons": "^7.2.0",
     "lucide-preact": "^0.523.0",
     "preact": "^10.26.9"

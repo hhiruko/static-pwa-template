@@ -1,5 +1,6 @@
 import { render } from 'preact';
 import { App } from './src/components/App';
+import '@hhiruko/water.css';
 
 document.title = import.meta.env.VITE_APP_NAME;
 
